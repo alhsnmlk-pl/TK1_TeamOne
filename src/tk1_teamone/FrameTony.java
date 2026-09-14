@@ -94,7 +94,7 @@ public class FrameTony extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(211, 212, 205));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_teamone/imgtony/foto b.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_teamone/imgtony/fotob.png"))); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("SF Pro Display", 0, 13)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(6, 110, 88));
@@ -179,7 +179,7 @@ public class FrameTony extends javax.swing.JFrame {
         );
 
         jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_teamone/imgtony/qr tony.png"))); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_teamone/imgtony/qrtony.png"))); // NOI18N
 
         jLabel15.setFont(new java.awt.Font("SF Pro Display", 1, 20)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(6, 110, 88));
