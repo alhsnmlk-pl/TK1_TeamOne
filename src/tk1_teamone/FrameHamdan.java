@@ -8,14 +8,14 @@ package tk1_teamone;
  *
  * @author Al
  */
-public class FrameAla extends javax.swing.JFrame {
+public class FrameHamdan extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(FrameAla.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(FrameHamdan.class.getName());
 
     /**
      * Creates new form FrameAla
      */
-    public FrameAla() {
+    public FrameHamdan() {
         initComponents();
     }
 
@@ -46,12 +46,12 @@ public class FrameAla extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(720, 450));
         setMinimumSize(new java.awt.Dimension(720, 450));
 
         jPanel1.setBackground(new java.awt.Color(211, 212, 205));
@@ -95,7 +95,7 @@ public class FrameAla extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(211, 212, 205));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_teamone/imgAla/fotoala.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_teamone/imgHamdan/Frame458.png"))); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("SF Pro Display", 0, 13)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(6, 110, 88));
@@ -125,7 +125,7 @@ public class FrameAla extends javax.swing.JFrame {
         jLabel11.setFont(new java.awt.Font("SF Pro Display", 0, 20)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(6, 110, 88));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel11.setText("202557201029");
+        jLabel11.setText("202557201014");
 
         jLabel7.setFont(new java.awt.Font("SF Pro Display", 1, 20)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(6, 110, 88));
@@ -133,7 +133,7 @@ public class FrameAla extends javax.swing.JFrame {
 
         jLabel13.setFont(new java.awt.Font("SF Pro Display", 0, 20)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(6, 110, 88));
-        jLabel13.setText("DS.KEPEL, KEC.NGETOS, KAB.NGANJUK");
+        jLabel13.setText("DS.NGANJUK, KEC.LOCERET,");
 
         jLabel12.setFont(new java.awt.Font("SF Pro Display", 1, 20)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(6, 110, 88));
@@ -141,7 +141,11 @@ public class FrameAla extends javax.swing.JFrame {
 
         jLabel8.setFont(new java.awt.Font("SF Pro Display", 0, 20)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(6, 110, 88));
-        jLabel8.setText("M HUSNIL MALAK");
+        jLabel8.setText("HAMDAN ABI A.A.M.");
+
+        jLabel17.setFont(new java.awt.Font("SF Pro Display", 0, 20)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(6, 110, 88));
+        jLabel17.setText("KAB.NGANJUK");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -159,7 +163,8 @@ public class FrameAla extends javax.swing.JFrame {
                             .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addComponent(jLabel12, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel13, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 369, Short.MAX_VALUE)))
+                    .addComponent(jLabel13, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 369, Short.MAX_VALUE)
+                    .addComponent(jLabel17, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 369, Short.MAX_VALUE)))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -176,11 +181,13 @@ public class FrameAla extends javax.swing.JFrame {
                 .addComponent(jLabel12)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel13)
+                .addGap(0, 0, 0)
+                .addComponent(jLabel17)
                 .addGap(0, 0, 0))
         );
 
         jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_teamone/imgAla/qrcode.png"))); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_teamone/imgHamdan/Vector.png"))); // NOI18N
 
         jLabel15.setFont(new java.awt.Font("SF Pro Display", 1, 20)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(6, 110, 88));
@@ -190,7 +197,7 @@ public class FrameAla extends javax.swing.JFrame {
         jLabel16.setFont(new java.awt.Font("SF Pro Display", 0, 20)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(6, 110, 88));
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel16.setText("https://github.com/alhsnmlk-pl");
+        jLabel16.setText("https://github.com/kazu-rumi");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -234,7 +241,7 @@ public class FrameAla extends javax.swing.JFrame {
                         .addComponent(jLabel16))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addComponent(jLabel3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel4)))
                 .addGap(0, 0, 0)
                 .addComponent(jLabel5))
@@ -281,7 +288,7 @@ public class FrameAla extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new FrameAla().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new FrameHamdan().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -293,6 +300,7 @@ public class FrameAla extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
