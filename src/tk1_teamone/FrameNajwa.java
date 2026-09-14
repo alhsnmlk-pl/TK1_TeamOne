@@ -8,14 +8,14 @@ package tk1_teamone;
  *
  * @author Al
  */
-public class FrameAla extends javax.swing.JFrame {
+public class FrameNajwa extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(FrameAla.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(FrameNajwa.class.getName());
 
     /**
      * Creates new form FrameAla
      */
-    public FrameAla() {
+    public FrameNajwa() {
         initComponents();
     }
 
@@ -46,12 +46,12 @@ public class FrameAla extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(720, 450));
         setMinimumSize(new java.awt.Dimension(720, 450));
 
         jPanel1.setBackground(new java.awt.Color(211, 212, 205));
@@ -78,7 +78,7 @@ public class FrameAla extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 236, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 244, Short.MAX_VALUE)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -95,7 +95,7 @@ public class FrameAla extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(211, 212, 205));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_teamone/imgAla/fotoala.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_teamone/imgNajwa/WhatsApp Image 2026-09-13 at 11.39.08 1.png"))); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("SF Pro Display", 0, 13)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(6, 110, 88));
@@ -125,7 +125,7 @@ public class FrameAla extends javax.swing.JFrame {
         jLabel11.setFont(new java.awt.Font("SF Pro Display", 0, 20)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(6, 110, 88));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel11.setText("202557201029");
+        jLabel11.setText("202557201033");
 
         jLabel7.setFont(new java.awt.Font("SF Pro Display", 1, 20)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(6, 110, 88));
@@ -133,7 +133,7 @@ public class FrameAla extends javax.swing.JFrame {
 
         jLabel13.setFont(new java.awt.Font("SF Pro Display", 0, 20)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(6, 110, 88));
-        jLabel13.setText("DS.KEPEL, KEC.NGETOS, KAB.NGANJUK");
+        jLabel13.setText("DS.NGEPEH, KEC.LOCERET,");
 
         jLabel12.setFont(new java.awt.Font("SF Pro Display", 1, 20)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(6, 110, 88));
@@ -141,7 +141,11 @@ public class FrameAla extends javax.swing.JFrame {
 
         jLabel8.setFont(new java.awt.Font("SF Pro Display", 0, 20)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(6, 110, 88));
-        jLabel8.setText("M HUSNIL MALAK");
+        jLabel8.setText("NAJWA NAGHMATUN");
+
+        jLabel17.setFont(new java.awt.Font("SF Pro Display", 0, 20)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(6, 110, 88));
+        jLabel17.setText("KAB.NGANJUK");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -159,7 +163,8 @@ public class FrameAla extends javax.swing.JFrame {
                             .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addComponent(jLabel12, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel13, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 369, Short.MAX_VALUE)))
+                    .addComponent(jLabel13, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 369, Short.MAX_VALUE)
+                    .addComponent(jLabel17, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 369, Short.MAX_VALUE)))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -176,21 +181,23 @@ public class FrameAla extends javax.swing.JFrame {
                 .addComponent(jLabel12)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel13)
+                .addGap(0, 0, 0)
+                .addComponent(jLabel17)
                 .addGap(0, 0, 0))
         );
 
         jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_teamone/imgAla/qrcode.png"))); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_teamone/imgNajwa/Vector.png"))); // NOI18N
 
         jLabel15.setFont(new java.awt.Font("SF Pro Display", 1, 20)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(6, 110, 88));
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel15.setText("GITHUB LINK");
 
-        jLabel16.setFont(new java.awt.Font("SF Pro Display", 0, 20)); // NOI18N
+        jLabel16.setFont(new java.awt.Font("SF Pro Display", 0, 14)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(6, 110, 88));
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel16.setText("https://github.com/alhsnmlk-pl");
+        jLabel16.setText("https://github.com/najwafaizah514-hash");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -202,7 +209,7 @@ public class FrameAla extends javax.swing.JFrame {
                     .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, Short.MAX_VALUE)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
@@ -210,8 +217,8 @@ public class FrameAla extends javax.swing.JFrame {
                     .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 254, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel15))
                         .addGap(18, 18, 18)
                         .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
         );
@@ -230,12 +237,13 @@ public class FrameAla extends javax.swing.JFrame {
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(jLabel15)
-                        .addGap(0, 0, 0)
-                        .addComponent(jLabel16))
+                        .addGap(19, 19, 19))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addComponent(jLabel3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
-                        .addComponent(jLabel4)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel16))))
                 .addGap(0, 0, 0)
                 .addComponent(jLabel5))
         );
@@ -281,7 +289,7 @@ public class FrameAla extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new FrameAla().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new FrameNajwa().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -293,6 +301,7 @@ public class FrameAla extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
